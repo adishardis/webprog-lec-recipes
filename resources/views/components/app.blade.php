@@ -14,8 +14,8 @@
 
     <title>{{ $title }}</title>
 
-    <script src="{{ mix('js/app.js') }}"></script>
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    @vite('resources/js/app.js')
+    @vite('resources/css/app.css')
 </head>
 
 <body>
