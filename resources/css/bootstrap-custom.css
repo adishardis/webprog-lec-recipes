@@ -24,7 +24,7 @@ h1,
     color: var(--bs-secondary-color);
 }
 
-.table > :not(caption) > * > * {
+.bootstrap-table > :not(caption) > * > * {
     border-bottom-width: var(--bs-border-width);
 }
 
@@ -32,15 +32,15 @@ h1,
     border-top-color: calc(var(--bs-border-width) * 2);
 }
 
-.table-bordered > :not(caption) > * {
+.bootstrap-table-bordered > :not(caption) > * {
     border-width: var(--bs-border-width) 0;
 }
 
-.table-bordered > :not(caption) > * > * {
+.bootstrap-table-bordered > :not(caption) > * > * {
     border-width: 0 var(--bs-border-width);
 }
 
-.table-primary {
+.bootstrap-table-primary {
     --bs-table-bg: #fbe5cd;
     --bs-table-border-color: #e2ceb9;
     --bs-table-striped-bg: #eedac3;
@@ -48,7 +48,7 @@ h1,
     --bs-table-hover-bg: #e8d4be;
 }
 
-.table-secondary {
+.bootstrap-table-secondary {
     --bs-table-bg: #d8d2cc;
     --bs-table-border-color: #c2bdb8;
     --bs-table-striped-bg: #cdc8c2;

@@ -1772,17 +1772,17 @@ summary {
     }
 }
 
-.table > :not(caption) > * > * {
+.bootstrap-table > :not(caption) > * > * {
     @apply pt-2 pr-2 pb-2 pl-2 border-b;
     background-color: var(--bs-table-bg);
     box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
 
-.table > tbody {
+.bootstrap-table > tbody {
     vertical-align: inherit;
 }
 
-.table > thead {
+.bootstrap-table > thead {
     @apply align-bottom;
 }
 
@@ -1796,27 +1796,27 @@ summary {
     caption-side: top;
 }
 
-.table-sm > :not(caption) > * > * {
+.bootstrap-table-sm > :not(caption) > * > * {
     @apply pt-1 pr-1 pb-1 pl-1;
 }
 
-.table-bordered > :not(caption) > * {
+.bootstrap-table-bordered > :not(caption) > * {
     @apply border-t border-r-0 border-b border-l-0;
 }
 
-.table-bordered > :not(caption) > * > * {
+.bootstrap-table-bordered > :not(caption) > * > * {
     @apply border-t-0 border-r border-b-0 border-l;
 }
 
-.table-borderless > :not(caption) > * > * {
+.bootstrap-table-borderless > :not(caption) > * > * {
     @apply border-b-0;
 }
 
-.table-borderless > :not(:first-child) {
+.bootstrap-table-borderless > :not(:first-child) {
     @apply border-t-0;
 }
 
-.table-striped > tbody > tr:nth-of-type(odd) > * {
+.bootstrap-table-striped > tbody > tr:nth-of-type(odd) > * {
     --bs-table-accent-bg: var(--bs-table-striped-bg);
     color: var(--bs-table-striped-color);
 }
@@ -1826,17 +1826,17 @@ summary {
     color: var(--bs-table-striped-color);
 }
 
-.table-active {
+.bootstrap-table-active {
     --bs-table-accent-bg: var(--bs-table-active-bg);
     color: var(--bs-table-active-color);
 }
 
-.table-hover > tbody > tr:hover > * {
+.bootstrap-table-hover > tbody > tr:hover > * {
     --bs-table-accent-bg: var(--bs-table-hover-bg);
     color: var(--bs-table-hover-color);
 }
 
-.table-primary {
+.bootstrap-table-primary {
     --bs-table-color: #000;
     --bs-table-bg: #cfe2ff;
     --bs-table-border-color: #bacbe6;
@@ -1850,7 +1850,7 @@ summary {
     border-color: var(--bs-table-border-color);
 }
 
-.table-secondary {
+.bootstrap-table-secondary {
     --bs-table-color: #000;
     --bs-table-bg: #e2e3e5;
     --bs-table-border-color: #cbccce;
@@ -1864,7 +1864,7 @@ summary {
     border-color: var(--bs-table-border-color);
 }
 
-.table-success {
+.bootstrap-table-success {
     --bs-table-color: #000;
     --bs-table-bg: #d1e7dd;
     --bs-table-border-color: #bcd0c7;
@@ -1878,7 +1878,7 @@ summary {
     border-color: var(--bs-table-border-color);
 }
 
-.table-info {
+.bootstrap-table-info {
     --bs-table-color: #000;
     --bs-table-bg: #cff4fc;
     --bs-table-border-color: #badce3;
@@ -1892,7 +1892,7 @@ summary {
     border-color: var(--bs-table-border-color);
 }
 
-.table-warning {
+.bootstrap-table-warning {
     --bs-table-color: #000;
     --bs-table-bg: #fff3cd;
     --bs-table-border-color: #e6dbb9;
@@ -1906,7 +1906,7 @@ summary {
     border-color: var(--bs-table-border-color);
 }
 
-.table-danger {
+.bootstrap-table-danger {
     --bs-table-color: #000;
     --bs-table-bg: #f8d7da;
     --bs-table-border-color: #dfc2c4;
@@ -1920,7 +1920,7 @@ summary {
     border-color: var(--bs-table-border-color);
 }
 
-.table-light {
+.bootstrap-table-light {
     --bs-table-color: #000;
     --bs-table-bg: #f8f9fa;
     --bs-table-border-color: #dfe0e1;
@@ -1934,7 +1934,7 @@ summary {
     border-color: var(--bs-table-border-color);
 }
 
-.table-dark {
+.bootstrap-table-dark {
     --bs-table-color: #fff;
     --bs-table-bg: #212529;
     --bs-table-border-color: #373b3e;
@@ -1948,30 +1948,30 @@ summary {
     border-color: var(--bs-table-border-color);
 }
 
-.table-responsive {
+.bootstrap-table-responsive {
     @apply overflow-x-auto;
 }
 
 @media (max-width: 575.98px) {
-    .table-responsive-sm {
+    .bootstrap-table-responsive-sm {
         @apply overflow-x-auto;
     }
 }
 
 @media (max-width: 767.98px) {
-    .table-responsive-md {
+    .bootstrap-table-responsive-md {
         @apply overflow-x-auto;
     }
 }
 
 @media (max-width: 991.98px) {
-    .table-responsive-lg {
+    .bootstrap-table-responsive-lg {
         @apply overflow-x-auto;
     }
 }
 
 @media (max-width: 1199.98px) {
-    .table-responsive-xl {
+    .bootstrap-table-responsive-xl {
         @apply overflow-x-auto;
     }
 }
@@ -7180,7 +7180,7 @@ fieldset:disabled .btn {
 }
 
 .d-table {
-    @apply table;
+    @apply bootstrap-table;
 }
 
 .d-table-row {
@@ -7974,7 +7974,7 @@ fieldset:disabled .btn {
         @apply grid;
     }
     .d-sm-table {
-        @apply table;
+        @apply bootstrap-table;
     }
     .d-sm-table-row {
         @apply table-row;
@@ -8449,7 +8449,7 @@ fieldset:disabled .btn {
         @apply grid;
     }
     .d-md-table {
-        @apply table;
+        @apply bootstrap-table;
     }
     .d-md-table-row {
         @apply table-row;
@@ -8924,7 +8924,7 @@ fieldset:disabled .btn {
         @apply grid;
     }
     .d-lg-table {
-        @apply table;
+        @apply bootstrap-table;
     }
     .d-lg-table-row {
         @apply table-row;
@@ -9399,7 +9399,7 @@ fieldset:disabled .btn {
         @apply grid;
     }
     .d-xl-table {
-        @apply table;
+        @apply bootstrap-table;
     }
     .d-xl-table-row {
         @apply table-row;
@@ -9874,7 +9874,7 @@ fieldset:disabled .btn {
         @apply grid;
     }
     .d-xxl-table {
-        @apply table;
+        @apply bootstrap-table;
     }
     .d-xxl-table-row {
         @apply table-row;
@@ -10358,7 +10358,7 @@ fieldset:disabled .btn {
         @apply grid;
     }
     .d-print-table {
-        @apply table;
+        @apply bootstrap-table;
     }
     .d-print-table-row {
         @apply table-row;
