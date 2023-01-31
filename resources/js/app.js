@@ -1,2 +1,2 @@
-require('./bootstrap');
-require('./custom');
+import './bootstrap';
+import './custom';
